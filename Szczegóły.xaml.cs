@@ -10,17 +10,15 @@ namespace bindingXML
         {
             InitializeComponent();
 
-            // Ustawienie DataContext na kategorię
             DataContext = kategoria;
-
-            // Ustawienie ItemsSource dla DataGrid
+           
             var produkty = kategoria.Element("Produkty").Elements("Produkt");
             dataGrid.ItemsSource = produkty;
         }
 
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            // Możesz dodać tutaj kod obsługi zdarzenia SelectionChanged, jeśli jest potrzebny
+            
         }
     }
 }
