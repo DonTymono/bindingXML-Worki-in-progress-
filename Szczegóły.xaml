@@ -8,23 +8,21 @@
         
         Title="{Binding XPath=@Nazwa}"
         Height="600" Width="400">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <TextBlock Text="{Binding XPath=Opis}"/>
-        <DataGrid x:Name="dataGrid"
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="100"/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<TextBlock Text="{Binding XPath=Opis}"/>
+		<DataGrid x:Name="dataGrid"
                   Grid.Row="1"
                   AutoGenerateColumns="False"
-                  ItemsSource="{Binding XPath=Produkty/Produkt}"
-                  SelectionChanged="DataGrid_SelectionChanged">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Nazwa produktu" Binding="{Binding XPath=Nazwa}" FontWeight="Bold"/>
-                <DataGridTextColumn Header="Kraj pochodzenia" Binding="{Binding XPath=@KrajPochodzenia}"/>
-                <DataGridTextColumn Header="Cena" Binding="{Binding XPath=Cena}"/>
-                <DataGridTextColumn Header="Kategoria" Binding="{Binding XPath=../../../@Nazwa}"/>
-            </DataGrid.Columns>
-        </DataGrid>
-    </Grid>
+                  ItemsSource="{Binding XPath=Produkty/Produkt}">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Nazwa produktu" Binding="{Binding XPath=Nazwa}" FontWeight="Bold"/>
+				<DataGridTextColumn Header="Kraj pochodzenia" Binding="{Binding XPath=KrajPochodzenia}"/>
+				<DataGridTextColumn Header="Cena" Binding="{Binding XPath=Cena}"/>
+			</DataGrid.Columns>
+		</DataGrid>
+	</Grid>
 </Window>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tymon\\source\\repos\\bindingXML\\bindingXML.csproj",
+      "projectUniqueName": "C:\\Users\\tymon\\source\\repos\\bindingXML\\bindingXML\\bindingXML.csproj",
       "projectName": "bindingXML",
-      "projectPath": "C:\\Users\\tymon\\source\\repos\\bindingXML\\bindingXML.csproj",
+      "projectPath": "C:\\Users\\tymon\\source\\repos\\bindingXML\\bindingXML\\bindingXML.csproj",
       "packagesPath": "C:\\Users\\tymon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tymon\\source\\repos\\bindingXML\\obj\\",
+      "outputPath": "C:\\Users\\tymon\\source\\repos\\bindingXML\\bindingXML\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tymon\\AppData\\Roaming\\NuGet\\NuGet.Config",

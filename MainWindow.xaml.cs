@@ -37,9 +37,9 @@ namespace bindingXML
 
         private void OtwórzSzczegółyKategorii(object sender, RoutedEventArgs e)
         {
-            new Szczegóły(
-               (XElement)ListaKategorii.SelectedItem
-                ).Show();
+            XDocument xmlDoc = XDocument.Load("produkty.xml");
+            var selectedCategory = (XElement)ListaKategorii.SelectedItem;
+            new Szczegóły(selectedCategory, xmlDoc).Show();
         }
     }
-}
+    }

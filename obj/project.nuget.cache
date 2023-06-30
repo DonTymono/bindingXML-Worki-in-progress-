@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AZd2cZQ5+vtDpDy/BWGb+erTrOFmzXbLziNlEEK4rhCLeGg7UM9RsEaXhY/nB86cZ3iTxAG555NUO3cl6VxUyg==",
+  "dgSpecHash": "qbdavbdAyFtfGOU3uHOfUb01LKbNWUJGHtZinav/PKfQMGHGsV8OyHUGEzTwZtuQJFW1isJiAT4Oi160EL3MJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tymon\\source\\repos\\bindingXML\\bindingXML.csproj",
+  "projectFilePath": "C:\\Users\\tymon\\source\\repos\\bindingXML\\bindingXML\\bindingXML.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
